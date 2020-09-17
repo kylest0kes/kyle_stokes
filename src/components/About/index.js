@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+
+import './style.css'
 
 export default function About() {
     return (
-        <div>
-            <h1>lkajsdhfakjsfhlaksjdfaskjdfhaskjdfh</h1>
-            <h1>lkajsdhfakjsfhlaksjdfaskjdfhaskjdfh</h1>
-            <h1>lkajsdhfakjsfhlaksjdfaskjdfhaskjdfh</h1>
+        <div className="jumbotron">
+            <h1>About ME Section</h1>
+            <h1>About ME Section</h1>
+            <h1>About ME Section</h1>
         </div>
     )
 }

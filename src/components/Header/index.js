@@ -5,7 +5,7 @@ import './style.css'
 
 export default function Header() {
     return (
-            <div className="header">
+            <div className="header position-sticky">
                 <ul className="menu vertical medium-horizontal">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
