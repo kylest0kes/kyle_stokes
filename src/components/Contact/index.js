@@ -10,14 +10,14 @@ export default function Contact() {
                 <div className="row">
                     <div className="small-12 column">
                         <div className="form-floating-label">
-                            <input type="email" id="email" name="email" required/>
-                            <label for="email">Name</label>
+                            <input type="text" id="name" name="name" required/>
+                            <label for="name">Name</label>
                         </div>
                     </div>
                     <div className="small-12 column">
                         <div className="form-floating-label">
-                            <input type="text" id="password" name="password"/>
-                            <label for="password">Email</label>
+                            <input type="text" id="email" name="email"/>
+                            <label for="email">Email</label>
                         </div>
                     </div>
                     <div className="small-12 column">
@@ -28,6 +28,7 @@ export default function Contact() {
                     </div>
                 </div>
             </form>
+            <button type="submit" class="btn">Send</button>
         </div>
     )
 }

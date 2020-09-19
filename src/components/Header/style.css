@@ -16,3 +16,7 @@ a:hover {
     font-style: italic;
     background-color: rgb(128, 128, 133);
 }
+
+a:visited {
+    color: whitesmoke;
+}

@@ -2,3 +2,8 @@ h1 {
     text-align: center;
     padding-top: 50px;
 }
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 0;
+}
