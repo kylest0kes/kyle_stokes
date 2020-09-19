@@ -4,7 +4,7 @@ import './style.css'
 
 export default function Contact() {
     return (
-        <div className="jumbotron shaded contact">
+        <div className="jumbotron contact">
             <h1>Contact</h1>
             <hr/>
             <h4>For business inquires, questions, or comments</h4>
