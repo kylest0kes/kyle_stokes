@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css'
 
-export default function About() {
+export default function Contact() {
     return (
         <div className="jumbotron shaded contact">
             <h1>Contact</h1>

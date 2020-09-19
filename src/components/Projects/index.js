@@ -2,12 +2,10 @@ import React from 'react';
 
 import './style.css'
 
-export default function About() {
+export default function Projects() {
     return (
         <div className="jumbotron shaded">
-            <h1>Projects Section</h1>
-            <h1>Projects Section</h1>
-            <h1>Projects Section</h1>
+            <h1>Projects</h1>
         </div>
     )
 }
