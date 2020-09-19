@@ -6,6 +6,8 @@ export default function Contact() {
     return (
         <div className="jumbotron shaded contact">
             <h1>Contact</h1>
+            <hr/>
+            <h4>For business inquires, questions, or comments</h4>
             <form action="">
                 <div className="row">
                     <div className="small-12 column">
