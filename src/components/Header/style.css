@@ -7,16 +7,16 @@
     padding: 10px 0;
 }
 
-a {
+.header-links {
     color: whitesmoke;
 }
 
-a:hover {
+.header-links:hover {
     color: whitesmoke;
     font-style: italic;
     background-color: rgb(128, 128, 133);
 }
 
-a:visited {
+.header-links:visited {
     color: whitesmoke;
 }
