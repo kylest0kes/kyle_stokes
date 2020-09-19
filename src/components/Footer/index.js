@@ -5,10 +5,14 @@ import './style.css'
 export default function Footer() {
     return (
         <footer>
-            <ul>
-                <li>Kyle Stokes</li>
-                <li>©2020</li>
-            </ul>
+            <div class="rounded-social-buttons">
+                <a class="social-button linkedin" href="https://www.linkedin.com/in/kylest0kes/" target="blank"></a>
+                <a class="social-button github" href="https://github.com/kylest0kes" target="blank"></a>
+            </div>
+            <div className="footer-info">
+                <p>Kyle Stokes</p>
+                <p>© 2020</p>
+            </div>
         </footer>
     )
 }
