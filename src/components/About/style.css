@@ -1,3 +1,27 @@
 .jumbotron{
     height: 100vh;
 }
+
+.about-three {
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 75px
+}
+
+.icon-three {
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.marketing-site-three-up-desc {
+    color: black;
+}
+
+.fas {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
