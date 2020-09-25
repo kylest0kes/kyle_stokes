@@ -28,7 +28,11 @@
 
 .about-bio {
     color: black;
-    margin: auto;
+}
+
+.about-subtitle {
+    color: black;
+    margin-top: 15px;
 }
 
 .about-img {

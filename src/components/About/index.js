@@ -31,7 +31,7 @@ export default function About() {
                 <div className="grid-x grid-margin-x about-three">
                     <div className="cell small-6">
                         <img className="about-img" alt="kyle" src={kyle1}/>
-                        <p className="about-bio" >Full Stack Web Developer with a reputation for thoroughness, determination, and a passion for web design.</p>
+                        <p className="about-subtitle" >Full Stack Web Developer with a reputation for thoroughness, determination, and a passion for web design.</p>
                     </div>
                     <div className="cell small-6">
                         <p className="about-bio">Hello world, I am Kyle! Ever since the first time I browsed my AOL Kids account on the family computer some 20+ years ago, I have always had an interest and curiosity into the inner workings of the web. As I got older, and as websites and the technology behind them became more advanced, naturally my curiosity increased. Now, being immersed in the world of Full Stack web development, I am ready to leave my mark, the same way those first websites left their mark on me.</p>
