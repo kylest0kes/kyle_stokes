@@ -1,10 +1,10 @@
 .jumbotron{
-    height: 100vh;
+    height: auto;
 }
 
 .about-three {
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 125px;
+    margin-left: 125px;
     margin-top: 75px
 }
 
@@ -24,4 +24,25 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
+
+.about-bio {
+    color: black;
+    margin: auto;
+}
+
+.about-img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-skills {
+    color: black;
+}
+
+.tech-skills {
+    margin: 50px 125px 50px 125px;
 }
