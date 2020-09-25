@@ -111,9 +111,9 @@
   
   .article-row-content-author,
   .article-row-content-time {
-    font-size: 0.875rem;
+    font-size: 2rem;
     margin-bottom: 0;
-    color: #8a8a8a;
+    color: black;
   }
   
   .article-row-reversed .article-row-content {
@@ -143,3 +143,10 @@
     }
   }
   
+  .project-github {
+      color: black;
+  }
+
+  .project-github:hover {
+      color: black;
+  }
