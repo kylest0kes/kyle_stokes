@@ -12,7 +12,14 @@ export default function Projects() {
 
                 <article className="article-row">
                     <div className="article-row-img">
-                    <img src="https://placehold.it/200" alt="picture of a whale eating a donkey" />
+                        <div class="image-hover-wrapper">
+                            <span class="image-hover-wrapper-banner">Old Junky Bikes</span>
+                            <a href="#"><img src="https://images.pexels.com/photos/163704/bike-old-wheel-two-wheeled-vehicle-163704.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"/>
+                                <span class="image-hover-wrapper-reveal">
+                                <p>Check it<br/><i class="fa fa-link" aria-hidden="true"></i></p>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                     <div className="article-row-content">
                     <h1 className="article-row-content-header">Project 1</h1>
@@ -25,7 +32,14 @@ export default function Projects() {
                 
                 <article className="article-row article-row-reversed">
                     <div className="article-row-img">
-                    <img src="https://placehold.it/200" alt="picture of a whale eating a donkey" />
+                        <div class="image-hover-wrapper">
+                            <span class="image-hover-wrapper-banner">Old Junky Bikes</span>
+                            <a href="#"><img src="https://images.pexels.com/photos/163704/bike-old-wheel-two-wheeled-vehicle-163704.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"/>
+                                <span class="image-hover-wrapper-reveal">
+                                <p>Check it<br/><i class="fa fa-link" aria-hidden="true"></i></p>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                     <div className="article-row-content">
                     <h1 className="article-row-content-header">Project 2</h1>
@@ -38,7 +52,14 @@ export default function Projects() {
                 
                 <article className="article-row">
                     <div className="article-row-img">
-                    <img src="https://placehold.it/200" alt="picture of a whale eating a donkey" />
+                        <div class="image-hover-wrapper">
+                            <span class="image-hover-wrapper-banner">Old Junky Bikes</span>
+                            <a href="#"><img src="https://images.pexels.com/photos/163704/bike-old-wheel-two-wheeled-vehicle-163704.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"/>
+                                <span class="image-hover-wrapper-reveal">
+                                <p>Check it<br/><i class="fa fa-link" aria-hidden="true"></i></p>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                     <div className="article-row-content">
                     <h1 className="article-row-content-header">Project 3</h1>
@@ -51,7 +72,14 @@ export default function Projects() {
                 
                 <article className="article-row article-row-reversed">
                     <div className="article-row-img">
-                    <img src="https://placehold.it/200" alt="picture of a whale eating a donkey" />
+                        <div class="image-hover-wrapper">
+                            <span class="image-hover-wrapper-banner">Old Junky Bikes</span>
+                            <a href="#"><img src="https://images.pexels.com/photos/163704/bike-old-wheel-two-wheeled-vehicle-163704.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"/>
+                                <span class="image-hover-wrapper-reveal">
+                                <p>Check it<br/><i class="fa fa-link" aria-hidden="true"></i></p>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                     <div className="article-row-content">
                     <h1 className="article-row-content-header">Project 4</h1>
@@ -64,7 +92,14 @@ export default function Projects() {
                    
                 <article className="article-row">
                     <div className="article-row-img">
-                    <img src="https://placehold.it/200" alt="picture of a whale eating a donkey" />
+                        <div class="image-hover-wrapper">
+                            <span class="image-hover-wrapper-banner">Old Junky Bikes</span>
+                            <a href="#"><img src="https://images.pexels.com/photos/163704/bike-old-wheel-two-wheeled-vehicle-163704.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"/>
+                                <span class="image-hover-wrapper-reveal">
+                                <p>Check it<br/><i class="fa fa-link" aria-hidden="true"></i></p>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                     <div className="article-row-content">
                     <h1 className="article-row-content-header">Project 5</h1>
@@ -77,7 +112,14 @@ export default function Projects() {
             
                 <article className="article-row article-row-reversed">
                     <div className="article-row-img">
-                    <img src="https://placehold.it/200" alt="picture of a whale eating a donkey" />
+                        <div class="image-hover-wrapper">
+                            <span class="image-hover-wrapper-banner">Old Junky Bikes</span>
+                            <a href="#"><img src="https://images.pexels.com/photos/163704/bike-old-wheel-two-wheeled-vehicle-163704.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"/>
+                                <span class="image-hover-wrapper-reveal">
+                                <p>Check it<br/><i class="fa fa-link" aria-hidden="true"></i></p>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                     <div className="article-row-content">
                     <h1 className="article-row-content-header">Project 6</h1>
