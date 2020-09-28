@@ -39,7 +39,7 @@ export default function About() {
                 </div>
                 {/* ABOUT SKILLS */}
                 <div className="tech-skills">
-                    <h3>Technical Skills</h3>
+                    <h3>Proficiencies</h3>
                     <p className="about-skills">Node.Js., Express, JavaScript, jQuery, React.js, React, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars,
                     HTML5, CSS3, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, ES6, JSON, Sequelize, MERN stack,
                     Foundation</p>
