@@ -17,13 +17,13 @@ export default function About() {
                         <p className="marketing-site-three-up-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.</p> 
                     </div>
                     <div className="cell small-4">
-                        <p><i class="fas icon-three fa-users"></i></p>
+                        <p><i class="fas icon-three fa-people-carry"></i></p>
                         <h4 className="marketing-site-three-up-title">Team Player</h4>
-                        <p className="marketing-site-three-up-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.</p>
+                        <p className="marketing-site-three-up-desc">There is no I in Team, and neither is there in Succeed. With years of collaborative experience in a variety of fields, I am well equipped to mesh into the current team setting and hit the ground running, in order achieve our goals.</p>
                     </div>
                     <div className="cell small-4">
-                        <p><i className="fas icon-three fa-thumbs-up"></i></p>
-                        <h4 className="marketing-site-three-up-title">Keyless Entry</h4>
+                        <p><i className="fas icon-three fa-palette"></i></p>
+                        <h4 className="marketing-site-three-up-title">Creative</h4>
                         <p className="marketing-site-three-up-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.</p>
                     </div>
                 </div>
@@ -41,8 +41,8 @@ export default function About() {
                 <div className="tech-skills">
                     <h3>Proficiencies</h3>
                     <p className="about-skills">Node.Js., Express, JavaScript, jQuery, React.js, React, JSX, GIT, GitHub, MongoDB, MySQL, Mongoose, Handlebars,
-                    HTML5, CSS3, Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, ES6, JSON, Sequelize, MERN stack,
-                    Foundation</p>
+                    HTML5, CSS3, Bootstrap Framework, Materialize Framework, APIs, Heroku, Terminal, AJAX, Restful API, ES6, JSON, Sequelize, MERN stack,
+                    Foundation Framework</p>
                 </div>
             </div>
             

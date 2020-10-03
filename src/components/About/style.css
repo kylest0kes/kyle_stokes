@@ -3,8 +3,8 @@
 }
 
 .about-three {
-    margin-right: 125px;
-    margin-left: 125px;
+    margin-right: 105px;
+    margin-left: 105px;
     margin-top: 75px
 }
 
@@ -49,4 +49,8 @@
 
 .tech-skills {
     margin: 50px 125px 50px 125px;
+}
+
+.marketing-site-three-up-desc {
+    font-size: 13px;
 }
