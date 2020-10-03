@@ -16,7 +16,7 @@ export default function Projects() {
             <div className="article-row-section">
             <div className="article-row-section-inner">
 
-                <article className="article-row">
+                <article className="article-row swing">
                     <div className="article-row-img">
                         <div class="image-hover-wrapper">
                             <a href="https://ink-central.herokuapp.com/" target="blank"><img src={InkCentral} alt="inkcentral"/>
@@ -36,7 +36,7 @@ export default function Projects() {
                     </div>
                 </article>
                 
-                <article className="article-row article-row-reversed">
+                <article className="article-row article-row-reversed swing">
                     <div className="article-row-img">
                         <div class="image-hover-wrapper">
                             <a href="https://pr0jectnum2.herokuapp.com/" target="blank"><img src={PostToSold}/>
@@ -56,7 +56,7 @@ export default function Projects() {
                     </div>
                 </article>
                 
-                <article className="article-row">
+                <article className="article-row swing">
                     <div className="article-row-img">
                         <div class="image-hover-wrapper">
                             <a href="https://eunahk92.github.io/brew-for-you/" target="blank"><img src={BrewForYou}/>
@@ -76,7 +76,7 @@ export default function Projects() {
                     </div>
                 </article>
                 
-                <article className="article-row article-row-reversed">
+                <article className="article-row article-row-reversed swing">
                     <div className="article-row-img">
                         <div class="image-hover-wrapper">
                             <a href="https://notetakerhw11ks.herokuapp.com/" target="blank"><img src={NoteTaker}/>
@@ -96,7 +96,7 @@ export default function Projects() {
                     </div>
                 </article>
                    
-                <article className="article-row">
+                <article className="article-row swing">
                     <div className="article-row-img">
                         <div class="image-hover-wrapper">
                             <a href="https://kylest0kes.github.io/weather_app/" target="blank"><img src={WeatherApp}/>
@@ -111,12 +111,12 @@ export default function Projects() {
                     <p className="article-row-content-description">If there is one thing that is ever-changing in our lives, it is the weather. We are always trying to stay curent with it, as it can effect, and possibly ruin our plans. So with this weather dashboard application, the goal is to make the user aware of the weather for any desired loction.</p>
                     <br/>
                     <h5 className="article-row-content-tech">Technologies Used</h5>   
-                    <p className="article-row-content-description">HTML 5, CSS, JQuery, Bootstrap, OpenWeather API (Current Weather, 5-day forecast, UV Index).</p>
+                    <p className="article-row-content-description">HTML 5, CSS, JQuery, AJAX, Bootstrap, OpenWeather API (Current Weather, 5-day forecast, UV Index).</p>
                     <p className="article-row-content-author"><a href="https://github.com/kylest0kes/weather_app" target="blank" className="project-github"><i class="fab fa-github-square"></i></a></p>
                     </div>
                 </article>
             
-                <article className="article-row article-row-reversed">
+                <article className="article-row article-row-reversed swing">
                     <div className="article-row-img">
                         <div class="image-hover-wrapper">
                             <a href="https://kylest0kes.github.io/password_generator/" target="blank"><img src={PassGen}/>

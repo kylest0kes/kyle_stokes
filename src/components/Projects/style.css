@@ -3,7 +3,7 @@
 }
 
 .article-row-section {
-    max-width: 75rem;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: -webkit-flex;
@@ -66,8 +66,13 @@
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    border-top: 1px solid #e6e6e6;
-    padding: 1.5rem 0;
+    padding: 1.5rem .5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .article-row:hover {
+    border-style: solid;
   }
   
   @media print, screen and (min-width: 40em) {
@@ -96,7 +101,7 @@
   
   .article-row-content {
     padding: 1.5rem 0 0;
-    max-width: 600px;
+    max-width: 100%;
     color: #0a0a0a;
   }
   
@@ -237,3 +242,78 @@
     z-index: 10;
   }
   
+  /* swing CSS */
+    @-webkit-keyframes swing
+  {
+      15%
+      {
+          -webkit-transform: translateX(7px);
+          transform: translateX(7px);
+      }
+      30%
+      {
+          -webkit-transform: translateX(-7px);
+        transform: translateX(-7px);
+      } 
+      50%
+      {
+          -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+      }
+      65%
+      {
+          -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+      }
+      80%
+      {
+          -webkit-transform: translateX(2px);
+          transform: translateX(2px);
+      }
+      100%
+      {
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+      }
+  }
+  @keyframes swing
+  {
+      15%
+      {
+          -webkit-transform: translateX(7px);
+          transform: translateX(7px);
+      }
+      30%
+      {
+          -webkit-transform: translateX(-7px);
+          transform: translateX(-7px);
+      }
+      50%
+      {
+          -webkit-transform: translateX(7px);
+          transform: translateX(5px);
+      }
+      65%
+      {
+          -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+      }
+      80%
+      {
+          -webkit-transform: translateX(2px);
+          transform: translateX(2px);
+      }
+      100%
+      {
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+      }
+  }
+
+  .swing:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
