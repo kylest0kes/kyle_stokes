@@ -77,3 +77,18 @@ footer {
   background: #fefefe;
   border-color: #000000;
 }
+
+.rounded-social-buttons .social-button.mail {
+  background: #000000;
+}
+
+.rounded-social-buttons .social-button.mail:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.mail:hover, .rounded-social-buttons .social-button.mail:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}

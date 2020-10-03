@@ -12,13 +12,13 @@ export default function About() {
                 {/* TOP ICONS */}
                 <div className="grid-x grid-margin-x about-three">
                     <div className="cell small-4">
-                        <p><i className="fas icon-three fa-thumbs-up"></i></p>
-                        <h4 className="marketing-site-three-up-title">Keyless Entry</h4>
+                        <p><i class="fas icon-three fa-tachometer-alt"></i></p>
+                        <h4 className="marketing-site-three-up-title">Driven</h4>
                         <p className="marketing-site-three-up-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.</p> 
                     </div>
                     <div className="cell small-4">
-                        <p><i className="fas icon-three fa-thumbs-up"></i></p>
-                        <h4 className="marketing-site-three-up-title">Keyless Entry</h4>
+                        <p><i class="fas icon-three fa-users"></i></p>
+                        <h4 className="marketing-site-three-up-title">Team Player</h4>
                         <p className="marketing-site-three-up-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sint, voluptatibus eaque natus ad eius.</p>
                     </div>
                     <div className="cell small-4">
