@@ -596,6 +596,14 @@ form {
     color:  black;
 }
 
+.form-status {
+    color: whitesmoke;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 0;
+    margin-top: 20px
+}
+
 .form-floating-label {
     position: relative;
    
