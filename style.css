@@ -41,6 +41,7 @@ hr {
 header{
     background-color: rgb(91, 91, 94);
     height: 55px;
+    opacity: 0.7;
 }
 
 .menu {
@@ -49,6 +50,7 @@ header{
 
 .header-links {
     color: whitesmoke;
+    opacity: 1;
 }
 
 .header-links:hover {
