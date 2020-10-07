@@ -33,7 +33,7 @@ hr {
 }
 
 /* HEADER */
-.header{
+header{
     background-color: rgb(91, 91, 94);
     height: 55px;
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .content {
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -291,8 +291,8 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 1.5rem .5rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .article-row:hover {
@@ -554,6 +554,10 @@ form {
     margin-top: 50px;
 }
 
+.contact {
+    padding-bottom: 60px;
+}
+
 .btn {
     display: block;
     margin-left: auto;
@@ -569,11 +573,6 @@ form {
     cursor: grab;
     background-color: whitesmoke;
     color:  black;
-}
-
-.contact {
-    height: 75vh;
-    width: 100vw;
 }
 
 .form-floating-label {
