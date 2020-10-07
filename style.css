@@ -164,6 +164,9 @@ body {
     background-color: black;
 }
 
+
+
+
 .about-three {
     margin-right: 90px;
     margin-left: 90px;
@@ -330,6 +333,7 @@ body {
     text-align: center;
     text-decoration: underline;
     color: whitesmoke;
+    font-family: 'Electrolize', sans-serif;
 }
   
 @media print, screen and (min-width: 40em) {
