@@ -684,7 +684,6 @@ hr {
     margin-top: 2px;
     font-size: 0.9em;
     font-weight: normal;
-    color: whitesmoke;
 }
 
 /* FOOTER */
@@ -746,9 +745,9 @@ footer {
 }
 
 .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
-  color: #000000;
-  background: #fefefe;
-  border-color: #000000;
+  background: #0e76a8;
+  color: #fefefe;
+  border-color: #fefefe;
 }
 
 .rounded-social-buttons .social-button.github {
@@ -776,7 +775,8 @@ footer {
 }
 
 .rounded-social-buttons .social-button.mail:hover, .rounded-social-buttons .social-button.mail:focus {
-  color: #000000;
-  background: #fefefe;
-  border-color: #000000;
+  color: rgb(179, 0, 0);
+  background: #c6c6c6;
+  border-color: rgb(179, 0, 0);
 }
+
