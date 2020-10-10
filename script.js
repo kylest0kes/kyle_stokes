@@ -1,3 +1,4 @@
+// CONTACT FORM JS
 window.addEventListener("DOMContentLoaded", function() {
 
     // get the form elements defined in your form HTML above
@@ -10,7 +11,7 @@ window.addEventListener("DOMContentLoaded", function() {
     
     function success() {
       form.reset();
-    //   button.style = "display: none ";
+      button.style = "display: none ";
       status.innerHTML = "Thanks! I'll get back to your soon!";
     }
 
@@ -27,7 +28,7 @@ window.addEventListener("DOMContentLoaded", function() {
     });
 });
   
-  // helper function for sending an AJAX request
+// helper function for sending an AJAX request
 
 function ajax(method, url, data, success, error) {
     var xhr = new XMLHttpRequest();
@@ -42,4 +43,40 @@ function ajax(method, url, data, success, error) {
         }
     };
     xhr.send(data);
+}
+
+// SHOW ON SCROLL JS
+var scroll = window.requestAnimationFrame || function(callback){ window.setTimeout(callback, 1000/60)};
+var elementsToShow = document.querySelectorAll('.show-on-scroll');
+
+function loop() {
+  elementsToShow.forEach(function (element) {
+    if (isElementInViewport(element)) {
+      element.classList.add('is-visible');
+    } else {
+      element.classList.remove('is-visible');
+    }
+  });
+
+  scroll(loop);
+}
+
+loop();
+
+function isElementInViewport(el) {
+  // special bonus for those using jQuery
+  if (typeof jQuery === "function" && el instanceof jQuery) {
+    el = el[0];
+  }
+  var rect = el.getBoundingClientRect();
+  return (
+    (rect.top <= 0
+      && rect.bottom >= 0)
+    ||
+    (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+    ||
+    (rect.top >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+  );
 }
