@@ -181,6 +181,16 @@ body {
     
 }
 
+.icon-section {
+    opacity: 0;
+    transform: ;
+    transition: transform 4s .25s, opacity .5s .5s ease-out;
+}
+
+.icon-section.is-visible {
+    opacity: 1;
+  }
+
 .icon-three {
     display: block;
     margin-left: auto;
