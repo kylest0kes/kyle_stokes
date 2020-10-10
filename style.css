@@ -181,15 +181,32 @@ body {
     
 }
 
-.icon-section {
+.icon-section-1 {
     opacity: 0;
-    transform: ;
-    transition: transform 4s .25s, opacity .5s .5s ease-out;
+    transition: transform 4s .25s, opacity .2s .2s ease-out;
 }
 
-.icon-section.is-visible {
+.icon-section-1.is-visible {
     opacity: 1;
-  }
+}
+
+.icon-section-2 {
+    opacity: 0;
+    transition: transform 4s .25s, opacity .4s .4s ease-out;
+}
+
+.icon-section-2.is-visible {
+    opacity: 1;
+}
+
+.icon-section-3 {
+    opacity: 0;
+    transition: transform 4s .25s, opacity .6s .6s ease-out;
+}
+
+.icon-section-3.is-visible {
+    opacity: 1;
+}
 
 .icon-three {
     display: block;
@@ -313,6 +330,8 @@ body {
     margin: 0;
     line-height: 1;
 }
+
+
 
 .article-row {
     display: -webkit-flex;
