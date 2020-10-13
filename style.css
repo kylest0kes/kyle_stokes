@@ -161,7 +161,7 @@ body {
     background-color: black;
 }
 
-.about-title.is-visible {
+.title.is-visible {
     animation-name: slidein-left-short;
     animation-duration: 1s;
 }
@@ -177,7 +177,7 @@ body {
     }
 }
 
-.about-hr.is-visible {
+hr.is-visible {
     animation-name: slidein-right-short;
     animation-duration: 1s;
 }
@@ -355,6 +355,20 @@ body {
     background-color: rgba(51, 51, 51, 1);
 }
 
+.project-container.is-visible {
+    animation-name: fadein;
+    animation-duration: 4s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .article-row-section {
     width: 100%;
     margin-right: auto;
@@ -380,14 +394,14 @@ body {
     max-width: 100%;
 }
   
-@media print, screen and (min-width: 40em) {
+@media print, screen and (min-width: 800px) {
     .article-row-section-inner {
         padding-right: 0.9375rem;
         padding-left: 0.9375rem;
     }
 }
 
-@media print, screen and (min-width: 40em) {
+@media print, screen and (min-width: 800px) {
     .article-row-section-inner {
         -webkit-flex: 0 0 83.33333%;
             -ms-flex: 0 0 83.33333%;
@@ -399,7 +413,7 @@ body {
     }
 }
 
-@media print, screen and (min-width: 40em) and (min-width: 40em) {
+@media print, screen and (min-width: 800px) and (min-width: 800px) {
     .article-row-section-inner {
         padding-right: 0.9375rem;
         padding-left: 0.9375rem;
@@ -411,8 +425,6 @@ body {
     margin: 0;
     line-height: 1;
 }
-
-
 
 .article-row {
     display: -webkit-flex;
@@ -430,7 +442,7 @@ body {
     border-style: solid;
 }
   
-@media print, screen and (min-width: 40em) {
+@media print, screen and (min-width: 800px) {
     .article-row {
         -webkit-flex-direction: row;
             -ms-flex-direction: row;
@@ -449,7 +461,7 @@ body {
     font-family: 'Electrolize', sans-serif;
 }
   
-@media print, screen and (min-width: 40em) {
+@media print, screen and (min-width: 800px) {
     .article-row-img img {
         max-width: none;
         width: auto;
@@ -462,10 +474,10 @@ max-width: 100%;
 color: #0a0a0a;
 }
 
-@media print, screen and (min-width: 40em) {
-.article-row-content {
-    padding: 0 0 0 1.5rem;
-}
+@media print, screen and (min-width: 800px) {
+    .article-row-content {
+        padding: 0 0 0 1.5rem;
+    }
 }
 
 .article-row-content-header {
@@ -501,7 +513,7 @@ padding: 0 1.5rem 0 0;
 padding: 0 0 1.5rem 0;
 }
 
-@media print, screen and (min-width: 40em) {
+@media print, screen and (min-width: 800px) {
 .article-row-reversed .article-row-content {
     -webkit-order: 1;
         -ms-flex-order: 1;
