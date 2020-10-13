@@ -161,6 +161,38 @@ body {
     background-color: black;
 }
 
+.about-title.is-visible {
+    animation-name: slidein-left-short;
+    animation-duration: 1s;
+}
+
+@keyframes slidein-left-short {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.about-hr.is-visible {
+    animation-name: slidein-right-short;
+    animation-duration: 1s;
+}
+
+@keyframes slidein-right-short {
+    from {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .about-bio {
     font-size: 20px;
     text-align: center;
@@ -236,12 +268,45 @@ body {
     margin-top: 15px;
 }
 
+.profile-img.is-visible {
+    animation-name: slidein-left;
+    animation-duration: 2s;
+}
+
+@keyframes slidein-left {
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .about-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 300px;
     width: 300px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+}
+
+.about-bio-section.is-visible {
+    opacity: 1;
+    animation-name: slidein-right;
+    animation-duration: 2s;
+}
+
+@keyframes slidein-right {
+    from {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .skills {
@@ -257,6 +322,22 @@ body {
     margin: 50px 125px 0 125px;
     text-align: center;
     padding-bottom: 50px;
+}
+
+.tech-skills.is-visible {
+    animation-name: fadeup-bottom;
+    animation-duration: 2s;
+}
+
+@keyframes fadeup-bottom {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .marketing-site-three-up-title {
