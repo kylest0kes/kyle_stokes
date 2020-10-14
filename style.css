@@ -161,9 +161,14 @@ body {
     background-color: black;
 }
 
+.title {
+    opacity: 0;
+}
+
 .title.is-visible {
     animation-name: slidein-left-short;
     animation-duration: 1s;
+    opacity: 1;
 }
 
 @keyframes slidein-left-short {
@@ -526,6 +531,14 @@ hr.is-visible {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .article-row-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .project-github {
     color: whitesmoke;
 }
@@ -691,25 +704,37 @@ hr.is-visible {
 
 /* CONTACT */
 form {
-    width: 35%;
+    width: 45%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    opacity: 0;
+}
+
+.contact-subtitle {
+    opacity: 0;
 }
 
 .contact-subtitle.is-visible {
     animation: fadein 3s;
+    opacity: 1;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
     form {
-        
+        width: 65%; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+   
 }
 
 form.is-visible {
     animation: zoomin 1.5s;
+    opacity: 1;
 }
 
 @keyframes zoomin {
@@ -826,6 +851,7 @@ form.is-visible {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
+    opacity: 0;
 }
 
 .stats-list > li {
@@ -856,6 +882,7 @@ form.is-visible {
 .stats-list.is-visible {
     animation-name: fadeup-bottom;
     animation-duration: 2s;
+    opacity: 1;
 }
 
 /* FOOTER */
