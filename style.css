@@ -5,6 +5,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow-y: scroll;
     font-family: 'Electrolize', sans-serif;
+    width: 100vw;
 }
 
 body::-webkit-scrollbar {
@@ -299,8 +300,7 @@ hr.is-visible {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
-    width: 300px;
+
 }
 
 .about-bio-section.is-visible {
@@ -427,9 +427,9 @@ hr.is-visible {
     border-style: solid;
 }
 
-.article-row-img img {
+/* .article-row-img img {
     width: 100%;
-}
+} */
 
 .article-row-content-tech {
     text-align: center;
@@ -492,7 +492,7 @@ hr.is-visible {
 .image-hover-wrapper {
     position: relative;
     /* margin-top: 60px; */
-    width: 480px;
+    /* width: 480px; */
 }
 
 .image-hover-wrapper a {
@@ -909,14 +909,14 @@ footer {
 /* ////////////////////////////////////////////////////// */
 
 /* MEDIA QUERIES */
-@media print, screen and (min-width: 800px) {
+@media print, screen and (min-width: 1120px) {
     .article-row-section-inner {
         padding-right: 0.9375rem;
         padding-left: 0.9375rem;
     }
 }
 
-@media print, screen and (min-width: 800px) {
+@media print, screen and (min-width: 1120px) {
     .article-row-section-inner {
         -webkit-flex: 0 0 83.33333%;
             -ms-flex: 0 0 83.33333%;
@@ -928,14 +928,14 @@ footer {
     }
 }
 
-@media print, screen and (min-width: 800px) and (min-width: 800px) {
+@media print, screen and (min-width: 1120px) and (min-width: 1120px) {
     .article-row-section-inner {
         padding-right: 0.9375rem;
         padding-left: 0.9375rem;
     }
 }
 
-@media print, screen and (min-width: 800px) {
+@media print, screen and (min-width: 1120px) {
     .article-row {
         -webkit-flex-direction: row;
             -ms-flex-direction: row;
@@ -943,20 +943,20 @@ footer {
     }
 }
   
-@media print, screen and (min-width: 800px) {
+@media print, screen and (min-width: 1120px) {
     .article-row-img img {
-        max-width: none;
-        width: auto;
+        max-width: 100vw;
+        width: 100vw;
     }
 }
 
-@media print, screen and (min-width: 800px) {
+@media print, screen and (min-width: 1120px) {
     .article-row-content {
         padding: 0 0 0 1.5rem;
     }
 }
 
-@media print, screen and (min-width: 800px) {
+@media print, screen and (min-width: 1120px) {
     .article-row-reversed .article-row-content {
         -webkit-order: 1;
             -ms-flex-order: 1;
@@ -969,7 +969,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1120px) {
     .article-row-img {
         display: block;
         margin-left: auto;
@@ -977,9 +977,9 @@ footer {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     form {
-        width: 65%; 
+        width: 45%; 
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -989,6 +989,11 @@ footer {
 @media screen and (max-width: 470px) {
     header {
         font-size: 14px;
+    }
+
+
+    form {
+        width: 75%;
     }
 }
 
@@ -1008,10 +1013,10 @@ footer {
 
 @media screen and (max-width: 520px) {
     .article-row-img {
-        display: block;
+        /* display: block;
         margin-left: auto;
         margin-right: auto;
-        transform: scale(.65,.65);
+        transform: scale(.65,.65); */
     }
 }
 
@@ -1026,7 +1031,7 @@ footer {
 
 @media screen and (max-width: 830px) {
    .profile-img {
-       margin-bottom: 25px;
+       margin-bottom: 50px;
    }
 
    .about-bio-container {
