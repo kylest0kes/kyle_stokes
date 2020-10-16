@@ -80,3 +80,23 @@ function isElementInViewport(el) {
       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
   );
 }
+
+// FUNCTION TO REMOVE CLASS IN ABOUT ME SECTION AT CERTAIN SCREEN WIDTH
+$(function(){
+  $(window).bind("resize",function(){
+      if($(this).width() < 830){
+        $('#icons1').removeClass('small-4').addClass('mobile-class');
+        $('#icons2').removeClass('small-4').addClass('mobile-class');
+        $('#icons3').removeClass('small-4').addClass('mobile-class');
+        $('#about-bio-info').removeClass('small-6').addClass('mobile-class');
+        $('#about-bio-info1').removeClass('small-6').addClass('mobile-class');
+      }
+      else{
+        $('#icons1').removeClass('mobile-class').addClass('small-4');
+        $('#icons2').removeClass('mobile-class').addClass('small-4');
+        $('#icons3').removeClass('mobile-class').addClass('small-4');
+        $('#about-bio-info').removeClass('mobile-class').addClass('small-6');
+        $('#about-bio-info1').removeClass('mobile-class').addClass('small-6');
+      }
+  })
+})

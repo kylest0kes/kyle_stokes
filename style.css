@@ -213,6 +213,12 @@ hr.is-visible {
     margin-top: 75px
 }
 
+.mobile-class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .icon {
     text-align: center;
     
@@ -636,7 +642,7 @@ hr.is-visible {
 
 /* CONTACT */
 form {
-    width: 45%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -903,19 +909,6 @@ footer {
 /* ////////////////////////////////////////////////////// */
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 470px) {
-    header {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 392px) {
-    a.header-links {
-        padding-right: 8px;
-        padding-left: 8px;
-    }
-}
-
 @media print, screen and (min-width: 800px) {
     .article-row-section-inner {
         padding-right: 0.9375rem;
@@ -991,4 +984,52 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+@media screen and (max-width: 470px) {
+    header {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    a.header-links {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    a.header-links {
+        padding-right: 4px;
+        padding-left: 4px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .article-row-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transform: scale(.65,.65);
+    }
+}
+
+/* @media screen and (max-width: 490px) {
+    .article-row-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transform: scale(.55,.55);
+    }
+} */
+
+@media screen and (max-width: 830px) {
+   .profile-img {
+       margin-bottom: 25px;
+   }
+
+   .about-bio-container {
+       margin-top: 40px;
+   }
 }
