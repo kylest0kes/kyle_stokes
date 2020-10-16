@@ -324,9 +324,14 @@ hr.is-visible {
     background-color: rgba(51, 51, 51, 1);
 }
 
+.project-container {
+    opacity: 0;
+}
+
 .project-container.is-visible {
     animation-name: fadein;
     animation-duration: 3s;
+    opacity: 1;
 }
 
 @keyframes fadein {
@@ -618,7 +623,7 @@ form {
 }
 
 form.is-visible {
-    animation: zoomin 1.5s;
+    animation: zoomin 2s;
     opacity: 1;
 }
 
