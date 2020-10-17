@@ -86,7 +86,7 @@ body {
     animation-name: hr-slidein-left;
     animation-duration: .75s;
     width: 100%;
-    border: 1px solid black
+    border: 1px solid whitesmoke
 }
 
 @keyframes hr-slidein-left {
@@ -109,6 +109,7 @@ body {
     0% { transform: translate3d(0, -100%, 0); }
     100% { transform: translate3d(0, 0, 0); }
 }
+
 .animated-title {
     color: whitesmoke;
     height: 40vmin;
@@ -177,17 +178,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
         -webkit-animation: fadein;
-        -webkit-animation-duration: 2s;
-}
-
-.hero h3 {
-    position: relative;
-    z-index: 1;
-    font-size: 3rem;
-    margin: 0 0 10px;
-    line-height: 1;
-    color: rgba(255, 255, 255, 0.9);
-    text-align: center;
+        -webkit-animation-duration: 2.5s;
 }
 
 @keyframes fadedown-top {
@@ -1090,4 +1081,39 @@ footer {
        margin-right: auto;
 
    }
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-text {
+        font-size: 25px;
+        margin-left: 25px;
+    }
+
+    .bottom-text {
+        padding-top: 17px;
+    }
+
+    .hero-hr {
+        position: absolute;
+        width: 75%;
+        margin-left: 25px;
+        border-color: whitesmoke;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .animated-title {
+        width: 300px;
+    }
+
+    .hero-text {
+        font-size: 23px;
+    }
 }

@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", function() {
     function success() {
       form.reset();
       button.style = "display: none ";
-      status.innerHTML = "Thanks! I'll get back to your soon!";
+      status.innerHTML = "Thanks! I'll get back to you soon!";
     }
 
     function error() {
