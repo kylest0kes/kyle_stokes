@@ -77,13 +77,11 @@ body {
 }
 
 .content {
-    /* max-width: 800px; */
-    margin: 0 auto;
-    padding: 0 20px;
+    position: absolute;
+    right: 75px;
 }
 
 .hero {
-    position: relative;
     background: #333333;
     color: black;
     height: 100vh;
