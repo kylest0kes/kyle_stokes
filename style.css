@@ -78,7 +78,65 @@ body {
 
 .content {
     position: absolute;
-    right: 75px;
+    right: 300px;
+}
+
+@keyframes showTopText {
+    0% { transform: translate3d(0, 100%, 0); }
+    40%, 60% { transform: translate3d(0, 50%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes showBottomText {
+    0% { transform: translate3d(0, -100%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+}
+.animated-title {
+    color: whitesmoke;
+    height: 40vmin;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+}
+.animated-title > div {
+    height: 50%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.animated-title > div div {
+    font-size: 45px;
+    padding: 2vmin 0;
+    position: absolute;
+}
+.animated-title > div div span {
+    display: block;
+}
+.animated-title > div.text-top {
+    border-bottom: .5vmin solid #000;
+    top: 0;
+}
+.animated-title > div.text-top div {
+    animation: showTopText 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+    color: whitesmoke;
+}
+.animated-title > div.text-bottom {
+    bottom: 0;
+}
+.animated-title > div.text-bottom div {
+    animation: showBottomText 0.5s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    top: 0;
+    transform: translate(0, -100%);
 }
 
 .hero {
@@ -111,6 +169,16 @@ body {
     line-height: 1.4;
 }
 
+@keyframes fadedown-top {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 /* ABOUT */
 .jumbotron{
@@ -621,7 +689,7 @@ form {
 }
 
 form.is-visible {
-    animation: zoomin 2s;
+    animation: zoomin 1s;
     opacity: 1;
 }
 
@@ -956,12 +1024,26 @@ footer {
     form {
         width: 75%;
     }
+
+    #slash1 {
+        margin-left: 140px;
+    }
 }
 
 @media screen and (max-width: 392px) {
     a.header-links {
         padding-right: 8px;
         padding-left: 8px;
+    }
+
+    #slash1 {
+        margin-left: 115px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #slash1{ 
+        margin-left: 95px;
     }
 }
 
@@ -972,24 +1054,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 520px) {
-    .article-row-img {
-        /* display: block;
-        margin-left: auto;
-        margin-right: auto;
-        transform: scale(.65,.65); */
-    }
-}
-
-/* @media screen and (max-width: 490px) {
-    .article-row-img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        transform: scale(.55,.55);
-    }
-} */
-
 @media screen and (max-width: 830px) {
    .profile-img {
        margin-bottom: 50px;
@@ -997,5 +1061,12 @@ footer {
 
    .about-bio-container {
        margin-top: 40px;
+   }
+
+   .content {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+
    }
 }
