@@ -5,7 +5,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow-y: scroll;
     font-family: 'Electrolize', sans-serif;
-    width: 100vw;
+    background-color: grey;
 }
 
 body::-webkit-scrollbar {
@@ -176,6 +176,8 @@ body {
     background-image: url('./images/hero-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+        -webkit-animation: fadein;
+        -webkit-animation-duration: 2s;
 }
 
 .hero h3 {
