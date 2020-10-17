@@ -79,11 +79,29 @@ body {
 .content {
     position: absolute;
     right: 300px;
+    color: black;
+}
+
+.hero-hr {
+    animation-name: hr-slidein-left;
+    animation-duration: .75s;
+    width: 100%;
+    border: 1px solid black
+}
+
+@keyframes hr-slidein-left {
+    from {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 @keyframes showTopText {
     0% { transform: translate3d(0, 100%, 0); }
-    40%, 60% { transform: translate3d(0, 50%, 0); }
     100% { transform: translate3d(0, 0, 0); }
 }
 
@@ -100,40 +118,49 @@ body {
     transform: translate(-50%, -50%);
     width: 450px;
 }
+
 .animated-title > div {
     height: 50%;
     overflow: hidden;
     position: absolute;
     width: 100%;
 }
+
 .animated-title > div div {
     font-size: 45px;
     padding: 2vmin 0;
     position: absolute;
 }
+
 .animated-title > div div span {
     display: block;
 }
+
 .animated-title > div.text-top {
-    border-bottom: .5vmin solid #000;
+    /* border-bottom: .5vmin solid #000; */
     top: 0;
 }
+
 .animated-title > div.text-top div {
     animation: showTopText 1s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
     bottom: 0;
     transform: translate(0, 100%);
+    padding-bottom: 0;
 }
+
 .animated-title > div.text-top div span:first-child {
     color: whitesmoke;
 }
+
 .animated-title > div.text-bottom {
     bottom: 0;
 }
+
 .animated-title > div.text-bottom div {
     animation: showBottomText 0.5s;
-    animation-delay: 1.75s;
+    animation-delay: 1.25s;
     animation-fill-mode: forwards;
     top: 0;
     transform: translate(0, -100%);
@@ -159,14 +186,6 @@ body {
     line-height: 1;
     color: rgba(255, 255, 255, 0.9);
     text-align: center;
-}
-
-.hero p {
-    position: relative;
-    z-index: 1;
-    font-size: 1.1rem;
-    color: rgba(255, 255, 255, 0.5);
-    line-height: 1.4;
 }
 
 @keyframes fadedown-top {
